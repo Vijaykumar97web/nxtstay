@@ -15,4 +15,6 @@ public interface HotelRepository {
 
     void deleteHotel(int hotelId);
 
+    List<Room> getHotelRooms(int hotelId);
+
 }

@@ -7,5 +7,5 @@ import java.util.List;
 
 @Repository
 public interface HotelJpaRepository extends JpaRepository<Hotel, Integer> {
-    
+ List<Room> getHotelRooms(int hotelId);
 }
